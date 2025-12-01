@@ -4,9 +4,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const navItems = [
-  { href: "#about", label: "A propos" },
-  { href: "#model", label: "Modele" },
-  { href: "#tech", label: "Technologie" },
+  { href: "#about", label: "About" },
+  { href: "#model", label: "Model" },
+  { href: "#tech", label: "Technology" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -48,7 +48,7 @@ export default function Header() {
           href="#contact"
           className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white shadow-md shadow-black/10 transition hover:opacity-90"
         >
-          Exprimer votre interet
+          Express Your Interest
         </a>
       </div>
     </motion.header>
