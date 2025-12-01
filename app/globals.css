@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fafbfb;
+  font-family: var(--font-sans), "Inter", system-ui, -apple-system, sans-serif;
+  color: #202b3a;
+}
+
+.prose-gradient {
+  background: linear-gradient(90deg, #ef5627, #103970);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-sans), "Inter", system-ui, -apple-system, sans-serif;
+}
