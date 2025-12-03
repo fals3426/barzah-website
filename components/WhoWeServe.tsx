@@ -53,7 +53,9 @@ export default function WhoWeServe() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-center text-accent2">Future cross-border expansion includes MENA region &amp; high growth markets.</p>
+          <p className="mt-6 text-center text-lg font-bold text-accent2">
+            Future cross-border expansion includes MENA region &amp; high growth markets.
+          </p>
         </motion.div>
       </div>
     </section>
