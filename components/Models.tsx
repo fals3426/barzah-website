@@ -19,7 +19,7 @@ export default function Models() {
             <div className="group rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-black/10 transition hover:-translate-y-2 hover:shadow-xl">
               <div className="mb-3 inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1">
                 <Image
-                  src="/barzah_share.png"
+                  src="/Barzah_share.png"
                   alt="Barzah Share"
                   width={320}
                   height={120}
