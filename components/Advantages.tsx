@@ -35,7 +35,7 @@ export default function Advantages() {
                 key={item}
                 className="group flex items-start gap-4 rounded-3xl border border-gray-200 bg-white p-5 text-ink shadow-md shadow-black/5 transition hover:-translate-y-1 hover:shadow-lg hover:shadow-black/10"
               >
-                <span className="flex h-14 w-14 items-center justify-center rounded-full border border-gray-200 bg-white text-accent shadow-inner shadow-black/5">
+                <span className="flex h-14 w-14 min-h-14 min-w-14 flex-none items-center justify-center rounded-full border border-gray-200 bg-white text-accent shadow-inner shadow-black/5">
                   <CheckCircleIcon className="h-6 w-6" />
                 </span>
                 <p className="leading-relaxed text-accent2">{item}</p>

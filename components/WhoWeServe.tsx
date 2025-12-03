@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -22,10 +22,6 @@ const rows = [
   {
     title: "Property Owners",
     desc: "Sell property fractions instead of the entire asset.",
-  },
-  {
-    title: "Future cross-border expansion includes MENA region & high growth markets.",
-    desc: "Focus on future cross-border expansion in MENA and other high growth markets.",
   },
 ];
 
@@ -57,6 +53,7 @@ export default function WhoWeServe() {
               </div>
             ))}
           </div>
+          <p className="mt-6 text-center text-accent2">Future cross-border expansion includes MENA region &amp; high growth markets.</p>
         </motion.div>
       </div>
     </section>

@@ -20,7 +20,7 @@ export default function About() {
               <h2 className="font-display text-3xl font-bold leading-tight text-accent2 sm:text-4xl">
                 Barzah Capital is a Qatar-based FinTech &amp; PropTech company (licensed under QFC) transforming how people invest in real estate.
               </h2>
-              <p className="text-base text-muted">We combine:</p>
+              <p className="text-base font-semibold text-[#334676]">We combine:</p>
             </div>
             <div className="rounded-3xl border border-gray-200 bg-white p-6 text-ink shadow-md shadow-black/5">
               <div className="space-y-3">

@@ -1,5 +1,6 @@
-﻿"use client";
+"use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 
@@ -14,17 +15,19 @@ export default function Models() {
           transition={{ duration: 0.5 }}
           className="rounded-3xl bg-white p-8 shadow-xl shadow-black/10"
         >
-          <p className="text-xs text-muted">________________________________________</p>
-          <div className="space-y-2">
-            <p className="text-sm font-bold uppercase tracking-tight text-accent2">THE BARZAH MODEL - INVEST TWO WAYS</p>
-            <h2 className="font-display text-3xl font-bold leading-tight text-accent2 sm:text-4xl">THE BARZAH MODEL - INVEST TWO WAYS</h2>
-          </div>
           <div className="mt-6 grid gap-6 md:grid-cols-2">
             <div className="group rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-black/10 transition hover:-translate-y-2 hover:shadow-xl">
-              <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-semibold text-accent">
-                <SparklesIcon className="h-4 w-4" /> 1 - Barzah Share
+              <div className="mb-3 inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1">
+                <Image
+                  src="/barzah_share.png"
+                  alt="Barzah Share"
+                  width={320}
+                  height={120}
+                  className="h-12 w-auto object-contain"
+                  priority
+                />
               </div>
-              <h3 className="font-display text-2xl font-semibold text-accent2">Real Estate Crowdfunding (Primary Market)</h3>
+              <h3 className="font-display text-2xl font-semibold text-accent2">Real Estate Crowdfunding</h3>
               <p className="mt-2 text-accent2">
                 Invest in professionally selected real-estate projects with low minimum amounts, backed by SPVs and full due diligence.
               </p>
@@ -46,10 +49,17 @@ export default function Models() {
               </div>
             </div>
             <div className="group rounded-3xl border border-gray-200 bg-white p-6 shadow-lg shadow-black/10 transition hover:-translate-y-2 hover:shadow-xl">
-              <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-semibold text-accent2">
-                <SparklesIcon className="h-4 w-4" /> 2 - Barzah Token
+              <div className="mb-3 inline-flex items-center rounded-full border border-gray-200 bg-white px-3 py-1">
+                <Image
+                  src="/Barzah_Token.png"
+                  alt="Barzah Token"
+                  width={320}
+                  height={120}
+                  className="h-12 w-auto object-contain"
+                  priority
+                />
               </div>
-              <h3 className="font-display text-2xl font-semibold text-accent2">Blockchain-Based Real Estate Tokenization (Primary Market)</h3>
+              <h3 className="font-display text-2xl font-semibold text-accent2">Blockchain-Based Real Estate Tokenization</h3>
               <p className="mt-2 text-accent2">
                 Properties can be converted into digital investment tokens that represent fractional ownership in Shariah-compliant SPVs.
               </p>

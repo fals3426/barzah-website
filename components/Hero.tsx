@@ -1,7 +1,6 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
 
 export default function Hero() {
   return (
@@ -13,21 +12,18 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="flex-1 space-y-4"
         >
-          <p className="text-xs uppercase tracking-[0.3em] text-white/70">HERO SECTION</p>
           <h1 className="font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
             Invest in Real Estate the Smart, Simple &amp; Shariah-Compliant Way
           </h1>
           <p className="text-lg text-white/80">
-            Fractional property ownership with no down payment, no installments, and no bank financing — starting from the
-            price of a dinner.
+            Fractional property ownership with no down payment, no installments - starting from the price of a dinner.
           </p>
           <p className="text-lg text-white/80">
-            Building the future of real-estate investing in Qatar — accessible, transparent, and powered by next-generation
+            Building the future of real-estate investing in Qatar - accessible, transparent, and powered by next-generation
             digital finance.
           </p>
-          <div className="space-y-2 rounded-2xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white shadow-lg shadow-black/20">
-            <p>Note: Barzah Capital is currently completing regulatory approvals.</p>
-            <p>Our platform is not yet operational, but we are preparing to launch soon.</p>
+          <div className="rounded-2xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white shadow-lg shadow-black/20">
+            <p>Barzah Capital is currently completing regulatory approvals. Our platform is not yet operational, but we are preparing to launch soon.</p>
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a
@@ -36,9 +32,6 @@ export default function Hero() {
             >
               Express Your Interest
             </a>
-            <div className="rounded-2xl border border-white/20 bg-white/10 px-4 py-3 text-sm text-white backdrop-blur">
-              CTA Button: Express Your Interest
-            </div>
           </div>
         </motion.div>
         <motion.div
@@ -89,7 +82,7 @@ export default function Hero() {
                 <div className="mt-3 grid grid-cols-2 gap-3 text-sm text-white">
                   <div className="rounded-xl border border-white/20 bg-white/10 p-3">
                     <p className="text-white/70">Digital onboarding</p>
-                    <p className="font-semibold text-white">Fully digital</p>
+                    <p className="font-semibold text-white">Automated</p>
                   </div>
                   <div className="rounded-xl border border-white/20 bg-white/10 p-3">
                     <p className="text-white/70">Dashboard</p>

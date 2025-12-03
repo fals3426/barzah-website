@@ -33,7 +33,6 @@ export default function Technology() {
           <p className="text-xs text-muted">________________________________________</p>
           <p className="text-sm font-bold uppercase tracking-tight text-accent2">● OUR TECHNOLOGY</p>
           <h2 className="font-display text-3xl font-bold leading-tight text-accent2 sm:text-4xl">Built for trust. Engineered for scale.</h2>
-          <p className="text-muted">(Icons/boxes for each point and expand the box to show the details when the user clicks on it)</p>
           <div className="mt-6 space-y-3">
             {items.map((item, idx) => {
               const isOpen = open === idx;

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -18,20 +18,16 @@ export default function Header() {
       transition={{ duration: 0.5 }}
       className="sticky top-0 z-30 border-b border-gray-200 bg-white/95 backdrop-blur-md shadow-md shadow-black/5"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <div className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2">
+        <div className="flex items-center">
           <Image
             src="/barzah-logo.png"
             alt="Barzah Capital logo"
-            width={160}
-            height={48}
+            width={440}
+            height={128}
             priority
-            className="h-10 w-auto drop-shadow-md"
+            className="h-28 w-auto drop-shadow-md"
           />
-          <div className="leading-tight">
-            <p className="font-semibold text-accent2">Barzah Capital</p>
-            <p className="text-xs text-muted">Qatar | FinTech &amp; PropTech</p>
-          </div>
         </div>
         <nav className="hidden items-center gap-4 text-sm font-semibold text-ink/70 md:flex">
           {navItems.map((item) => (
