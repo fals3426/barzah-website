@@ -23,6 +23,7 @@ export default function InterestForm() {
               <button
                 type="button"
                 className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-md shadow-black/15 transition hover:opacity-90"
+                onClick={() => window.open("https://006gdp1ye98.typeform.com/to/f0hAtBsd", "_blank", "noopener,noreferrer")}
               >
                 Get Early Access
               </button>

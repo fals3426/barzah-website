@@ -27,8 +27,10 @@ export default function Hero() {
           </div>
           <div className="flex flex-wrap items-center gap-4">
             <a
-              href="#contact"
+              href="https://006gdp1ye98.typeform.com/to/f0hAtBsd"
               className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-md shadow-black/20 transition hover:opacity-90"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Express Your Interest
             </a>
